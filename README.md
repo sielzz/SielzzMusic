@@ -35,13 +35,13 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-get install git)
-$ git clone https://github.com/TeamDaisyX/DaisyXmusic
-$ cd DaisyXMusic
+$ git clone https://github.com/sielzz/SielzzMusic
+$ cd SielzzMusic
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -U -r requirements.txt
 # Fork This Repo and fill config.py vars with your own values.Then Start The Bot
-$ python3 -m DaisyXMusic
+$ python3 -m SielzzMusic
 ```
 
 ### Commands for Group 🛠
