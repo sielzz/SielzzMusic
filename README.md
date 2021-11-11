@@ -30,7 +30,7 @@
 
 Get pyrogram (p)  `SESSION` from here:
 
-[![Run on Repl.it](https://repl.it/badge/github/sielzz/GenerateStringSession)](https://replit.com/@sielzz/GenerateStringSession)
+[![Run on Repl.it](https://repl.it/badge/github/sielzz/GenerateStringSession)](https://replit.com/@sielzz/SielzzPyrogramString)
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
