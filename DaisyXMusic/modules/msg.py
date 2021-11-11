@@ -18,11 +18,11 @@ from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+    START_MSG = "**Halo anak yatim 👋 [{}](tg://user?id={})!**\n\n🤖 Saya adalah bot canggih yang dibuat untuk memutar musik di obrolan suara Grup & Saluran Telegram.\n\n✅ kirim saya /help untuk info lainnya."
     HELP_MSG = [
         ".",
         f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**Anjay lu lagi, welcome back di {PROJECT_NAME}
 
 ⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
@@ -31,15 +31,15 @@ class Messages:
         f"""
 **Setting up**
 
-1) Make bot admin (Group and in channel if use cplay)
-2) Start a voice chat
-3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+1) Jadiin gua CEO di gc lu
+2) Buka obrolan suara / VCG lu
+3) Typing `/userbotjoin` dan coba /play <nama lagu>
+*) Kalo Assistant Bot ga join Silahkan Tambahkan @{ASSISTANT_NAME} ke gc lu dan cobain lagi
 
 **For Channel Music Play**
-1) Make me admin of your channel 
-2) Send /userbotjoinchannel in linked group
-3) Now send commands in linked group
+1) Jadiin gua CEO di channel lu
+2) ketik /userbotjoinchannel di channel lu
+3) abis tu kirim commands di link grup lu
 """,
         f"""
 **Commands**
@@ -54,15 +54,15 @@ class Messages:
 
 **=>> Playback ⏯**
 
-- /player: Open Settings menu of player
-- /skip: Skips the current track
-- /pause: Pause track
-- /resume: Resumes the paused track
-- /end: Stops media playback
-- /mute: mute song play
-- /unmute: unmute song play
-- /current: Shows the current Playing track
-- /playlist: Shows playlist
+- /player: Untuk buka pengaturan ueer
+- /skip: Buat skip umur emak lu
+- /pause: Buat pause umur bapa lu
+- /resume: Buat lanjutin umur bapa lu yang di pause
+- /end: Buat matiin bapa lu
+- /mute: Buat bisu in mulut bapa lu
+- /unmute: Buat biar bapa lu bisa ngomong
+- /current: Buat liat lagu yang lagi lu kocok
+- /playlist: Buat liat daftar lagi yang lagi lu kocok
 
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
 """,
