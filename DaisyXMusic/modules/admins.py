@@ -150,9 +150,9 @@ async def unmute(_, message: Message):
     )
 
 
-@Client.on_message(filters.command("admincache"))
+@Client.on_message(filters.command("reload"))
 @errors
-async def admincache(client, message: Message):
+async def reload(client, message: Message):
     set(
         message.chat.id,
         [
